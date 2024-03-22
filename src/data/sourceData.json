@@ -1,0 +1,19 @@
+[
+    {
+        "label": "Ads",
+        "value": 32,
+        "revenue": 80
+    },
+
+    {
+        "label": "Subscription",
+        "value": 50,
+        "revenue": 30
+    },
+
+    {
+        "label": "Spnosorships",
+        "value": 25,
+        "revenue": 95
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "labels":"Eating" ,
+        "firstData": 45 ,
+        "secondData": 30
+    },
+
+    {
+        "labels":"Drinking" ,
+        "firstData": 45 ,
+        "secondData":45
+    },
+
+    {
+        "labels":"Sleeping" ,
+        "firstData": 80,
+        "secondData": 70
+    },
+
+    {
+        "labels":"Designing" ,
+        "firstData": 20,
+        "secondData": 30
+    },
+
+    {
+        "labels":"Coding" ,
+        "firstData": 40,
+        "secondData": 50
+    },
+
+    {
+        "labels":"Cycling" ,
+        "firstData": 12,
+        "secondData": 15
+    },
+
+    {
+        "labels":"Running" ,
+        "firstData": 30,
+        "secondData": 20
+    }
+]

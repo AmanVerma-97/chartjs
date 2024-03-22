@@ -1,0 +1,36 @@
+[
+    {
+        "day": "Monday" ,
+        "revenue": 25
+    },
+
+    {
+        "day": "Tuesday",
+        "revenue": 48
+    },
+
+    {
+        "day": "Wednesday" ,
+        "revenue":17
+    },
+
+    {
+        "day": "Thursday",
+        "revenue": 33
+    },
+
+    {
+        "day": "Friday" ,
+        "revenue":78
+    },
+
+    {
+        "day": "Saturday",
+        "revenue":61
+    },
+
+    {
+        "day": "Sunday",
+        "revenue":40
+    }
+]
