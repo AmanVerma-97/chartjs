@@ -21,15 +21,16 @@ defaults.plugins.title.font.size=15;
  function App() {
    return (
      <>
-            <div className="md:flex md:flex-col md:w-full md:h-auto md:justify-center md:items-center md:gap-8 my-4 p-2">
+            <div className="lg:flex lg:flex-col lg:w-full lg:h-auto lg:justify-center lg:items-center lg:gap-8 my-4 p-2">
 
-                <h1 className=" text-teal-600 font-bold text-3xl md:text-4xl drop-shadow-xl text-center">Different Charts using Chart.js</h1>
+                <h1 className=" text-teal-600 font-bold text-2xl md:text-4xl lg:text-6xl drop-shadow-xl text-center">Different Charts using Chart.js</h1>
                 
-                <div className="md:flex md:flex-row md:w-11/12 md:m-auto md:gap-24 md:justify-center md:items-center md:h-3/4 p-4 
-                                flex flex-col w-11/12 m-auto gap-6 justify-center items-center h-auto">
+                <div className="lg:flex lg:flex-row lg:w-11/12 lg:m-auto lg:gap-24 lg:justify-center lg:items-center lg:h-3/4 p-4
+                                md:flex md:flex-col md:w-9/12 md:m-auto md:gap-8 md:justify-center md:items-center
+                                flex flex-col w-11/12 m-auto gap-4 justify-center items-center h-auto">
 
-                    <div className=" md:flex md:w-2/6 md:justify-center md:items-center md:h-96 border-2 border-gray-700 p-4
-                                     w-11/12 h-80 flex justify-center items-center bg-slate-50 rounded-xl shadow-lg shadow-blue-600/75">
+                    <div className=" lg:flex lg:w-3/6 lg:justify-center lg:items-center lg:h-96 border-2 border-gray-700 p-4
+                                     w-11/12 h-80 flex justify-center items-center bg-slate-100 rounded-xl shadow-lg shadow-blue-600/75">
                         <Bar 
                             data={{
                               labels: sourceData.map((data) => data.label),
@@ -59,8 +60,8 @@ defaults.plugins.title.font.size=15;
                         />
                     </div>
 
-                    <div className=" md:flex md:w-2/6 md:justify-center md:items-center md:h-96 border-2 border-gray-700 p-4
-                                     w-11/12 h-80 flex justify-center items-center bg-slate-50 rounded-xl shadow-lg shadow-blue-600/75">
+                    <div className=" lg:flex lg:w-3/6 lg:justify-center lg:items-center lg:h-96 border-2 border-gray-700 p-4
+                                     w-11/12 h-80 flex justify-center items-center bg-slate-100 rounded-xl shadow-lg shadow-blue-600/75">
                         <Doughnut 
                             data={{
                                 labels: sourceData.map((data) => data.label),
@@ -90,11 +91,12 @@ defaults.plugins.title.font.size=15;
 
                 </div>
 
-                <div className="md:flex md:flex-row md:w-11/12 md:m-auto md:gap-24 md:justify-center md:items-center md:h-3/4 p-4
+                <div className="lg:flex lg:flex-row lg:w-11/12 lg:m-auto lg:gap-24 lg:justify-center lg:items-center lg:h-3/4 p-4
+                                md:flex md:flex-col md:w-9/12 md:m-auto md:gap-8 md:justify-center md:items-center
                                 flex flex-col w-11/12 m-auto gap-6 justify-center items-center h-auto">
 
-                    <div className=" md:flex md:w-2/6 md:justify-center md:items-center md:h-96 border-2 border-gray-700 p-4
-                                     w-11/12 h-80 flex justify-center items-center bg-slate-50 rounded-xl shadow-lg shadow-blue-600/75">
+                    <div className=" lg:flex lg:w-3/6 lg:justify-center lg:items-center lg:h-96 border-2 border-gray-700 p-4
+                                     w-11/12 h-80 flex justify-center items-center bg-slate-100 rounded-xl shadow-lg shadow-blue-600/75">
                         <Pie 
                             data={{
                               labels: sourceData.map((data) => data.label),
@@ -122,8 +124,8 @@ defaults.plugins.title.font.size=15;
                         />
                     </div>
 
-                    <div className=" md:flex md:w-2/6 md:justify-center md:items-center md:h-96 border-2 border-gray-700 p-4
-                                     w-11/12 h-80 flex justify-center items-center bg-slate-50 rounded-xl shadow-lg shadow-blue-600/75">
+                    <div className=" lg:flex lg:w-3/6 lg:justify-center lg:items-center lg:h-96 border-2 border-gray-700 p-4
+                                     w-11/12 h-80 flex justify-center items-center bg-slate-100 rounded-xl shadow-lg shadow-blue-600/75">
                         <Line 
                             data={{
                                 labels:monthData.map((data)=> data.month),
@@ -157,11 +159,12 @@ defaults.plugins.title.font.size=15;
 
                 </div>
 
-                <div className="md:flex md:flex-row md:w-11/12 md:m-auto md:gap-24 md:justify-center md:items-center md:h-3/4 p-4
+                <div className="lg:flex lg:flex-row lg:w-11/12 lg:m-auto lg:gap-24 lg:justify-center lg:items-center lg:h-3/4 p-4
+                                md:flex md:flex-col md:w-9/12 md:m-auto md:gap-8 md:justify-center md:items-center
                                 flex flex-col w-11/12 m-auto gap-6 justify-center items-center h-auto">
 
-                    <div className=" md:flex md:w-2/6 md:justify-center md:items-center md:h-96 border-2 border-gray-700 p-4
-                                     w-11/12 h-80 flex justify-center items-center bg-slate-50 rounded-xl shadow-lg shadow-blue-600/75">
+                    <div className=" lg:flex lg:w-3/6 lg:justify-center lg:items-center lg:h-96 border-2 border-gray-700 p-4
+                                     w-11/12 h-80 flex justify-center items-center bg-slate-100 rounded-xl shadow-lg shadow-blue-600/75">
                         <Radar 
                             data={{
                             labels: radarData.map((data)=> data.labels),
@@ -202,8 +205,8 @@ defaults.plugins.title.font.size=15;
                         />
                     </div>
 
-                    <div className=" md:flex md:w-2/6 md:justify-center md:items-center md:h-96 border-2 border-gray-700 p-4
-                                     w-11/12 h-80 flex justify-center items-center bg-slate-50 rounded-xl shadow-lg shadow-blue-600/75">
+                    <div className=" lg:flex lg:w-3/6 lg:justify-center lg:items-center lg:h-96 border-2 border-gray-700 p-4
+                                     w-11/12 h-80 flex justify-center items-center bg-slate-100 rounded-xl shadow-lg shadow-blue-600/75">
                         <PolarArea
                             data={{
                                 labels: polarData.map((data) => data.day),
